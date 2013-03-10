@@ -1,0 +1,21 @@
+/* Place this in your html where you want the document to go */
+<div id="embedded_flash" style="height:850px;width:770px;">
+<span style="font-size:20px">Loading document... </span>
+</div>
+
+<script>
+    var scribd_embed_element_id = 'embedded_flash';
+    var scribd_single_view_page = true;
+    var scribd_publisher_id = '{0}';
+    var scribd_keep_private = {2};
+</script>
+<script src='http://www.scribd.com/javascripts/auto.js'></script>
+
+/* Place this right above the </body> tag at the bottom of your web page */
+<script type="text/javascript">
+    var scribd_publisher_id = '{0}';
+    var scribd_type = {1};
+    var scribd_keep_original_link = {3};
+    var scribd_custom_landing_page = '{4}';
+</script>
+<script src="http://www.scribd.com/javascripts/auto.js"></script>

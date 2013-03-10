@@ -1,0 +1,12 @@
+/* Place this at the top of your page */
+<script src="http://www.scribd.com/javascripts/view.js"></script>
+
+/* Place this where you wish to display your document */
+<div id='embedded_doc'></div>
+<script type="text/javascript">
+    var scribd_doc = scribd.Document.getDocFromUrl('{0}', '{1}');
+    {2}
+    {3}
+		scribd_doc.addParam("public", {4});
+    scribd_doc.write('embedded_doc');
+</script>

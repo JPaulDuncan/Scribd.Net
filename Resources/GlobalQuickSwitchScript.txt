@@ -1,0 +1,8 @@
+<script type="text/javascript">
+    var scribd_publisher_id = '{0}';
+    var scribd_type = {1};
+    var scribd_keep_original_link = {2};
+    var scribd_keep_private = {3};
+    var scribd_custom_landing_page = '{4}';
+</script>
+<script src="http://www.scribd.com/javascripts/auto.js"></script>

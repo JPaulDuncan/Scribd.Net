@@ -1,0 +1,6 @@
+<div id='embedded_doc'></div>
+<script type="text/javascript">
+    var scribd_doc = scribd.Document.getDocFromUrl('{0}', '{1}');
+    scribd_doc.addParam("public", {2});
+    scribd_doc.write('embedded_doc');
+</script>
