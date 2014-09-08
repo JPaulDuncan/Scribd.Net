@@ -1,0 +1,20 @@
+﻿# Travis-CI Build for Scribd.Net
+# see travis-ci.org for details
+
+language: c
+
+os:
+ - osx
+ - linux
+
+compiler: clang
+
+# Only watch the development branch
+branches:
+ only:
+   - master
+
+# Notify of build changes
+notifications:
+ email:
+  - jpaulduncan@gmail.com
