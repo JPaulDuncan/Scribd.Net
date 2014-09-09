@@ -8,3 +8,6 @@ Originally hosted at: http://scribdnet.codeplex.com
 
 #Nuget
 http://nuget.org/List/Packages/ScribdNet
+
+--
+jpaulduncan
